@@ -1,0 +1,25 @@
+	Utilizando a base disponível em: https://www.kaggle.com/srinivas365/multilabel-classification-emotions elabore uma solução utilizando dois algoritmos de aprendizagem de máquina do seu conhecimento para classificar a emoção da música (escolha como você representará a saída, uma vez que algumas músicas podem pertencer a duas categorias). Justifique a escolha dos dois algoritmos de aprendizagem de maquina utilizados e discuta. Os resultados obtidos em ambos. Divida (aleatoriamente) o conjunto em treinamento e teste: 80% e 20%. Os resultados dessa questão deverão ser descritos detalhadamente no relatório através de três pontos principais:
+
+- Análise da base de dados: identificar instancias com atributos incompletos, gerar matriz de correlação, identificar a presença de outliers e verificar se as classes estão balanceadas. O balanceamento devera ser ilustrado por meio de gráficos (e.g. histograma);
+
+- Análise dos resultados considerando matriz de confusão, especificidade, sensibilidade, medida f1 e acurácia. Descreva detalhadamente os resultados obtidos por cada métrica,justificando a diferença entre eles.
+
+Bônus: Altere dois parâmetros de cada algoritmo de aprendizagem de maquina utilizados na questão e discuta os resultados obtidos. Exemplo: alterar a quantidade de k vizinhos e a função de distancia utilizada, alterar a função kernel do SVM, alterar a arquitetura da rede neural (e.x. camadas e função de ativação, alterar o otimizador e a taxa de aprendizado).
+
+### PASSOS ###
+	1. Escolher algoritmos de aprendizagem de marquina
+		KNN (KNeighborsClassifier)
+		MLPClassifier (Multi-layer Perceptron classifier)
+	2. Justificar a escolha dos algoritmos
+	3. Analisar a base de dados
+		- Identificar instancias com atributos incompletos
+		- Gerar matriz de correlação
+		- Identificar presença de outliers
+		- Verificar se as classes estão balanceadas (por meio de gráficos isto é, histograma)
+	4. Analisar os resultados
+		- Considerando a matriz de confusão
+		- Especificidade
+		- Sensibilidade
+		- Medida f1
+		- Acurácia
+	BONUS: Alterar dois parâmetros de cada algoritmo de aprenziagem utlizados e discutir os resultados.
